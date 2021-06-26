@@ -27,7 +27,7 @@ The operator is expected to take as input a SQL statement and target database on
 #### DataQualityOperator
 The operator's main functionality is to receive one or more SQL based test cases along with the expected results and execute the tests. 
 
-udac_etl_dag.py  calls above operators one by one in the order specified in the bottom of the scrit.
+udac_etl_dag.py  calls above operators one by one in the order specified in the bottom of the script.
 
 #### S3 bucket, Redshift cluster connection and AWS credentials 
 Was created via  AWS management console.Connections for aws_credentials (containing IAM role credentials) and redshift cluster are created in the Admin tab of Airflow.
