@@ -18,7 +18,7 @@ REDSHIFT_CLUSTER_CREATION contains Python scripts for creating a redshift cluste
 #### StageToRedshiftOperator
 This operator is expected to be able to load any JSON formatted files from S3 to Amazon Redshift. The operator creates and runs a SQL COPY statement based on the parameters provided. The operator's parameters should specify where in S3 the file is loaded and what is the target table.
 
-###~ LoadFactOperator
+#### LoadFactOperator
 The operator is expected to take as input a SQL statement and target database on which to run the query against.
 
 #### LoadDimensionOperator
