@@ -10,8 +10,8 @@ A music streaming company, Sparkify, has decided that it is time to introduce mo
 The source data resides in S3 in the form of JSON files and needs to be processed in Amazon Redshift. Thefore is one fact table, songplays, and a few dimension tables.The process takes data from S3, loads it into fact and dimension tables and performs data quality checks.
 
 ### Files in repository
-Files consist of three directories. DAGS directory contains a dag for table creation, because this task is normally only ran once, and a dag for ETL. It also contains a script for creating tables
-PLUGINS directory contains operatons performing ETL tasks, each of them is described below
+Files consist of three directories. DAGS directory contains a dag for table creation, because this task is normally only ran once, and a dag for ETL. It also contains a script for creating tables.
+PLUGINS directory contains operatons performing ETL tasks, each of them is described below.
 REDSHIFT_CLUSTER_CREATION contains Python scripts for creating a redshift cluster, checking its status and deleting cluster once work si done. It also contains a configuration file. 
 
 
